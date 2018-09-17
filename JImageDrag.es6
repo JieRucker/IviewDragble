@@ -235,8 +235,6 @@ class JImageDrag {
             this.setCoords(lleft, ltop, id);
             return false;
         }
-
-
     }
 
     /**
@@ -668,7 +666,7 @@ class JImageDrag {
                 } else {
                     ele.attachEvent('onmousewheel', fn);
                 }
-            }
+            };
 
             return tick()
         })();
@@ -716,7 +714,7 @@ class JImageDrag {
 
             // wheel
             _this.removeMouseWheelHandler(ele, this.mouse_wheel);
-        }
+        };
 
         if (this.isGlobal) {
             this.dragElement.remove();
