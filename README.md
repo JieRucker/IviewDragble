@@ -7,8 +7,8 @@
 
 ## 使用方法
 
+> 恢复图片状态视点
 ```bush
-// 恢复图片状态视点
 jImageDrag = new JImageDrag({
     viewElement: '#viewElement', //主容器节点
     dragElement: '#viewPic', //图片节点
@@ -21,8 +21,11 @@ jImageDrag = new JImageDrag({
     zoom_max: GLOBAL_ZOOM_MAX, // 最大缩放值
     globalElement: '#viewElement',
 });
+```
 
-// 比较两张图片
+> 比较两张图片
+
+```bush
 comparePicDragbleFirst = new JImageDrag({
     viewElement: '#imageView0',
     dragElement: '#pic0',
@@ -44,8 +47,11 @@ comparePicDragbleSecond = new JImageDrag({
     height: document.body.clientHeight - 264,
     zoom_max: GLOBAL_ZOOM_MAX,
 });
+```
 
-// 普通显示
+> 普通显示
+
+```bush
 jImageDrag = new JImageDrag({
     viewElement: '#viewElement', //主容器节点
     dragElement: '#viewPic', //图片节点
