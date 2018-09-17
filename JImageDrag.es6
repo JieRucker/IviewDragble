@@ -1,7 +1,6 @@
 /**
- * Iview dragble
- *
- * @author          xiaoxin
+ * JImageDrag
+ * @author          JRucker
  * @date            Created on 17-6-28.
  * @description     Applicable to image enlargement and drag operation
  */
